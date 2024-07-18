@@ -1,5 +1,4 @@
 **The dataset contains 113,036 entries and 18 columns. Here's a brief overview of the columns:**
-
 Date: The date of the transaction.
 Day: The day of the transaction.
 Month: The month of the transaction.
@@ -22,20 +21,16 @@ Revenue: The total revenue from the transaction.
 
 **Entities and Relationships**
 Customer:
-
 Attributes: Customer_Age, Age_Group, Customer_Gender, Country, State
 Product:
-
 Attributes: Product_Category, Sub_Category, Product, Unit_Cost, Unit_Price
 Sales:
-
 Attributes: Date, Day, Month, Year, Order_Quantity, Profit, Cost, Revenue
 Relationships:
 Customer places Sales
 Product is included in Sales
 ER Diagram Description
 Customer (Customer_ID, Customer_Age, Age_Group, Customer_Gender, Country, State)
-
 Customer_ID: Primary Key
 Customer_Age: Integer
 Age_Group: String
@@ -43,7 +38,6 @@ Customer_Gender: String
 Country: String
 State: String
 Product (Product_ID, Product_Category, Sub_Category, Product, Unit_Cost, Unit_Price)
-
 Product_ID: Primary Key
 Product_Category: String
 Sub_Category: String
@@ -51,7 +45,6 @@ Product: String
 Unit_Cost: Integer
 Unit_Price: Integer
 Sales (Sales_ID, Date, Day, Month, Year, Order_Quantity, Profit, Cost, Revenue, Customer_ID, Product_ID)
-
 Sales_ID: Primary Key
 Date: Date
 Day: Integer
